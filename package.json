@@ -21,9 +21,6 @@
     "url": "https://github.com/tsejs/tse-cli/issues"
   },
   "homepage": "https://github.com/tsejs/tse-cli#readme",
-  "dependencies": {
-    "@vue/cli-shared-utils": "^3.0.0-beta.10"
-  },
   "devDependencies": {
     "chalk": "^2.4.1",
     "ora": "^2.1.0",

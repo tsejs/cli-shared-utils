@@ -2,7 +2,5 @@
     'logger',
     'spinner'
 ].forEach(lib => {
-    module.exports = {
-        [lib]: require(`./lib/${lib}`)
-    }
+    Object.assign(module.exports, require(`./lib/${lib}`))
 })
